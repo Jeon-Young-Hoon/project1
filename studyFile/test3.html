@@ -1,0 +1,22 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		div {border: 1px solid #aaaaaa;width: 800px;height: 200px;text-align;opacity: 0.5;background-color: green}
+		#div2 { width: 200px;height: 500px; float: left;background-color: red}
+
+		#div3 { width: 200px;height: 500px;float: right; position: relative;background-color: blue; }
+		#div4 { clear: both; background-color: pink}
+		#div1 + div {clear: both;content: "";display: table;}
+	</style>
+</head>
+<body>
+	<div id="div1">Header</div>
+	<div>
+		<div id="div2">Sid</div>
+		<div id="div3">Content</div>
+	</div>
+	<div id="div4">Footer</div>
+</body>
+</html>
